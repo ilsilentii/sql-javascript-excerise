@@ -1,9 +1,7 @@
+const settings = require("./settings");
 const knex = require('knex')({
     dialect: 'postgresql',
-    connection: {
-        user: 'travis',
-        password: 'password'
-    }
+    connection: settings
 });
 
 // Adds information to the database based on the users input

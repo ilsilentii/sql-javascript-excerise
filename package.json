@@ -1,0 +1,22 @@
+{
+  "name": "psqljava",
+  "version": "1.0.0",
+  "description": "javscript to psql excerise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilsilentii/sql-javascript-excerise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilsilentii/sql-javascript-excerise/issues"
+  },
+  "homepage": "https://github.com/ilsilentii/sql-javascript-excerise#readme",
+  "dependencies": {
+    "pg": "^7.3.0"
+  }
+}
